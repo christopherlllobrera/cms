@@ -46,14 +46,14 @@
                                     fill-opacity="1" fill-rule="nonzero" />
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Quality Assurance
+                        <span class="text-gray-500 text-center h-20 flex items-center">Quality Assurance
                             and Control</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
-                        <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
+                        <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"  data-dropdown-placement="top" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                             <img src="{{ URL('images/EPC.png') }}" class="w-20 h-20 sm:w-16 sm:h-16">
-                        </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Engineering,
+                        </button>
+                        <span class="text-gray-500 text-center h-20 flex items-center">Engineering,
                             Procurement and Construction</span>
                     </li>
                 </ul>
@@ -64,7 +64,7 @@
                         <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                             <img src="{{ URL('images/COMM SERV.png') }}" class="w-24 h-24 sm:w-16 sm:h-16">
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Commercial
+                        <span class="text-gray-500 text-center h-20 flex items-center">Commercial
                             Services</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
@@ -75,7 +75,7 @@
                                     d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Information
+                        <span class="text-gray-500 text-center h-20 flex items-center">Information
                             Communication and Technology</span>
                     </li>
                 </ul>
@@ -90,14 +90,14 @@
                                     d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Finance</span>
+                        <span class="text-gray-500 text-center h-20 flex items-center">Finance</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
                         <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                             <img src="{{ URL('images/OSSM.png') }}" class="w-16 h-16 sm:w-12 sm:h-12">
 
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Occupational
+                        <span class="text-gray-500 text-center h-20 flex items-center">Occupational
                             Safety and Sustainability Management</span>
                     </li>
                 </ul>
@@ -124,7 +124,7 @@
                                 </g>
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Legal</span>
+                        <span class="text-gray-500 text-center h-20 flex items-center">Legal</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
                         <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
@@ -134,7 +134,7 @@
                                     d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Supply Chain
+                        <span class="text-gray-500 text-center h-20 flex items-center">Supply Chain
                             Management</span>
                     </li>
                 </ul>
@@ -144,8 +144,10 @@
                     <li class="mb-4 flex flex-col items-center gap-y-2">
                         <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                             <img src="{{ URL('images/CSG.png') }}" class="w-20 h-20 sm:w-12 sm:h-12">
+
+
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Corporate
+                        <span class="text-gray-500 text-center h-20 flex items-center">Corporate
                             Services Group</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
@@ -168,7 +170,7 @@
                                 </g>
                             </svg>
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Corporate Labor
+                        <span class="text-gray-500 text-center h-20 flex items-center">Corporate Labor
                             and Relations</span>
                     </li>
                 </ul>
@@ -184,18 +186,35 @@
                             </svg>
 
                         </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Logistics
+                        <span class="text-gray-500 text-center h-20 flex items-center">Logistics
                             Management</span>
                     </li>
                     <li class="mb-4 flex flex-col items-center gap-y-2">
-                        <a href="#" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
+                        <button data-dropdown-placement="top" id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="w-24 h-24 bg-orange-600 rounded-full flex items-center justify-center sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 sm:w-12 sm:h-12  text-white" fill="none"
                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
                             </svg>
-                        </a>
-                        <span class="text-gray-500 text-center hover:underline h-20 flex items-center">Corporate HR and
+                            <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+                                  <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Payroll</a>
+                                  </li>
+                                  <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Benefits</a>
+                                  </li>
+                                  <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Training</a>
+                                  </li>
+                                  <li>
+                                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Engagement</a>
+                                  </li>
+                                </ul>
+                            </div>
+                        </button>
+
+                        <span class="text-gray-500 text-center h-20 flex items-center">Corporate HR and
                             Transformation</span>
                     </li>
                 </ul>
